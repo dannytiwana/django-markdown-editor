@@ -6,3 +6,14 @@ dist/
 *.pyc
 *note
 *backup*
+The virtual environment was not created successfully because ensurepip is not
+available.  On Debian/Ubuntu systems, you need to install the python3-venv
+package using the following command.
+
+    apt install python3.9-venv
+
+You may need to use sudo with that command.  After installing the python3-venv
+package, recreate your virtual environment.
+
+Failing command: ['/home/kali/django-markdown-editor/venv/bin/python', '-Im', 'ensurepip', '--upgrade', '--default-pip']
+
